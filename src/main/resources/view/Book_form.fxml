@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="615.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ManageBookFormComtroller">
+   <children>
+      <ImageView fitHeight="615.0" fitWidth="950.0" layoutY="-1.0">
+         <image>
+            <Image url="@../org.example/images/graphic-2d-colorful-wallpaper-with-grainy-gradients.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="390.0" layoutY="24.0" prefHeight="43.0" prefWidth="171.0" text="Book Manage">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7689393794897831" endY="0.7386363645394642" startX="0.5151515025081057" startY="0.20075754685835406">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.42384666204452515" green="0.5789473652839661" blue="0.3130604326725006" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.3444444537162781" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="92.0" layoutY="131.0" text="book Id :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="383.0" text="Qty On hand :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="214.0" text="unit price :">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="298.0" text="Description:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCode" layoutX="92.0" layoutY="157.0" onKeyReleased="#txtCodeOnKeyReleased" />
+      <TextField fx:id="txtQtyOnHand" layoutX="93.0" layoutY="406.0" onKeyReleased="#txtQtyOnHandOnKeyReleased" />
+      <TextField fx:id="txtDescription" layoutX="93.0" layoutY="324.0" onKeyReleased="#txtDescriptionOnKeyReleased" />
+      <TextField fx:id="txtUnitPrice" layoutX="92.0" layoutY="239.0" onKeyReleased="#txtUnitPriceOnKeyReleased" />
+      <JFXButton layoutX="484.0" layoutY="547.0" onAction="#btnClearOnAction" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #C66DF5;" text="clear">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/clear.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="32.0" layoutY="28.0" onAction="#btnBackOnAction" prefHeight="35.0" prefWidth="86.0" style="-fx-background-color: #D91F62;" text="Back">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="737.0" layoutY="547.0" onAction="#btnSaveOnAction" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #70C22C;" text="Save">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/diskette.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="611.0" layoutY="548.0" onAction="#btnUpdateOnAction" prefHeight="43.0" prefWidth="98.0" style="-fx-background-color: #D1C426;" text="Update">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/updated.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <TableView fx:id="tblItem" layoutX="390.0" layoutY="138.0" prefHeight="396.0" prefWidth="554.0" style="-fx-background-color: white;">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="94.39996337890625" text="id" />
+            <TableColumn fx:id="colDecription" prefWidth="188.8000030517578" text="Description(Name)" />
+            <TableColumn fx:id="colUnitPrice" prefWidth="130.4000244140625" text="Unit Price" />
+            <TableColumn fx:id="colQtyOnHand" prefWidth="138.39993896484373" text="QtyOnHand" />
+         </columns>
+      </TableView>
+      <Line endX="100.0" layoutX="457.0" layoutY="58.0" startX="-100.0" strokeWidth="3.0" />
+      <Button fx:id="btnDelete" layoutX="846.0" layoutY="548.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="43.0" prefWidth="98.0" style="-fx-background-color: #C75446;" text="Delete">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/bin.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="txtCode1" layoutX="748.0" layoutY="93.0" onKeyReleased="#txtDescriptionOnKeyReleased" prefHeight="30.0" prefWidth="150.0" />
+      <Button layoutX="896.0" layoutY="92.0" mnemonicParsing="false" onAction="#btnSearchOnActon" prefHeight="26.0" prefWidth="54.0">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

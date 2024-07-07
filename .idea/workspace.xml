@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8012bb15-817a-49ba-8316-8f448ef2af1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/BOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/SuperBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/AuthorBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/BookBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/CustomerBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/InventoryBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/LogBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/PurchaseOrderBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/RegisterBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/ResetBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/AuthorBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/BookBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/CustomerBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/InventoryBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/LogBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/PurchaseOrderBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/RegisterBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/ResetBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/DashboardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageAuthorFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageBookFormComtroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageCustomerFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageForgetPasswordFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageInventoryFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageLoginformController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageOrdersFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManagePlaceOrderFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageRegisterFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/CrudDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/SQLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/SuperDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/AuthorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/InventoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/LogDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/OrderDetailsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Orders1DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/QueryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/RegisterDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ResetDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/AuthorDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/BookDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/CustomerDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/InventoryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/LogDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/Order1DAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/OrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/OrderDetailsDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/QueryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/RegisterDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/ResetDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/AuthorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/InventoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/Order2DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/CustomEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Order2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mineApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/AuthorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/InventoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Order1DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Order2DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/TextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/AuthorTM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/BookTM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/CustomerTM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/InventoryTM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/Order1TM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/OrderDetailTM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/3607424.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/bin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/customer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/dashboard_icon_182989.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/delivery-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/diskette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/editor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/enter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/graphic-2d-colorful-wallpaper-with-grainy-gradients.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/icons8-plus-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/left-arrow (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/place_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/root2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/rotated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/update.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/updated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/warehouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Book_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Orders_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/author_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/customer_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/forgetPassword_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/inventory_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/login_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/placeOrder_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/register_form.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2iKYiLIOB20c4SMgD3ZvVpjHeve" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mineApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kaifz/Desktop/projects/LayeredArchitecture_Bookshop/src/main/java/org/example/util&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kaifz/Desktop/projects/LayeredArchitecture_Bookshop/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4643678&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\java\org\example\util" />
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\resources\org.example\images" />
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop" />
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\resources\view" />
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\resources" />
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\resources\org.example\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.bo.custom.impl" />
+      <recent name="org.example.bo.custom" />
+      <recent name="org.example.dao.custom.impl" />
+      <recent name="org.example.model" />
+      <recent name="org.example.dao.custom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Wrapper">
+    <configuration name="Wrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Wrapper" />
+      <module name="LayeredArchitecture_Bookshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mineApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.mineApplication" />
+      <module name="LayeredArchitecture_Bookshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Wrapper" />
+        <item itemvalue="Application.mineApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8012bb15-817a-49ba-8316-8f448ef2af1d" name="Changes" comment="" />
+      <created>1719240863846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719240863846</updated>
+      <workItem from="1719240864906" duration="6800000" />
+      <workItem from="1719259895193" duration="2398000" />
+      <workItem from="1719308984049" duration="10818000" />
+      <workItem from="1719338972358" duration="4712000" />
+      <workItem from="1719389177981" duration="5702000" />
+      <workItem from="1719398306051" duration="29850000" />
+      <workItem from="1719436745686" duration="620000" />
+      <workItem from="1719495793792" duration="24693000" />
+      <workItem from="1719572223673" duration="3825000" />
+      <workItem from="1719630891156" duration="924000" />
+      <workItem from="1719772478075" duration="10087000" />
+      <workItem from="1719832042687" duration="20095000" />
+      <workItem from="1719929394845" duration="11341000" />
+      <workItem from="1720010725203" duration="17387000" />
+      <workItem from="1720088623373" duration="14705000" />
+      <workItem from="1720115367982" duration="13316000" />
+      <workItem from="1720136270793" duration="5814000" />
+      <workItem from="1720192077640" duration="1854000" />
+      <workItem from="1720236440677" duration="6000" />
+      <workItem from="1720236462177" duration="1484000" />
+      <workItem from="1720257625832" duration="709000" />
+      <workItem from="1720371223506" duration="988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

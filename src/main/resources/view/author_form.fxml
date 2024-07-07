@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="615.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ManageAuthorFormController">
+   <children>
+      <ImageView fitHeight="625.0" fitWidth="962.0">
+         <image>
+            <Image url="@../org.example/images/graphic-2d-colorful-wallpaper-with-grainy-gradients.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="57.0" layoutY="149.0" prefHeight="46.0" prefWidth="107.0" text="Author ID    :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="250.0" prefHeight="46.0" prefWidth="107.0" text="Author Name :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="346.0" prefHeight="46.0" prefWidth="107.0" text="Author Country :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAuthorId" layoutX="164.0" layoutY="160.0" promptText="id" />
+      <TextField fx:id="txtAtuhorName" layoutX="164.0" layoutY="261.0" onKeyReleased="#txtAuthorNameOnKeyReleased" promptText="Name" />
+      <TextField fx:id="txtAuthorCountry" layoutX="162.0" layoutY="356.0" onKeyReleased="#txtAuthorCountyOnKeyReleased" promptText="Country" />
+      <TableView fx:id="tblAuthor" layoutX="373.0" layoutY="141.0" prefHeight="359.0" prefWidth="574.0">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="133.5999755859375" text="ID" />
+            <TableColumn fx:id="colName" prefWidth="193.60009765625" text="Name" />
+            <TableColumn fx:id="colCountry" prefWidth="245.60001220703123" text="Country" />
+         </columns>
+      </TableView>
+      <Label layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="952.0" text="                                                     Author Form Manage" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6136362624890875" endY="0.6060605550354177" startX="0.9431818172787176" startY="0.5378788167780095">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7473683953285217" green="0.14116959273815155" blue="0.6968518495559692" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.10767160161507405">
+                     <color>
+                        <Color red="0.7473683953285217" green="0.14116959273815155" blue="0.6968518495559692" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5121951219512195">
+                     <color>
+                        <Color red="0.03345029056072235" green="0.043356724083423615" blue="0.23157894611358643" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2336614727973938" green="0.12651072442531586" blue="0.621052622795105" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="451.0" layoutY="544.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="34.0" prefWidth="86.0" style="-fx-background-color: #70C22C;" text="Save">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/diskette.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="577.0" layoutY="543.0" mnemonicParsing="false" onAction="#btnClearOnAction" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: #C66DF5;" text="Clear">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/clear.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="708.0" layoutY="541.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="34.0" prefWidth="107.0" style="-fx-background-color: #D1C426;" text="Update">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/updated.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="847.0" layoutY="542.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: #C75446;" text="Delete">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/bin.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="37.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="107.0" style="-fx-background-color: #D91F62;" text="Back">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Line endX="135.20001220703125" endY="3.814697265625E-6" layoutX="508.0" layoutY="56.0" startX="-157.5999755859375" startY="3.814697265625E-6" strokeWidth="3.0" />
+      <TextField fx:id="txtAuthorId1" layoutX="735.0" layoutY="94.0" onKeyReleased="#txtAuthorIdOnKeyReleased" prefHeight="26.0" prefWidth="134.0" promptText="Id Search" />
+      <Button layoutX="868.0" layoutY="93.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="26.0" prefWidth="66.0">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../org.example/images/search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
