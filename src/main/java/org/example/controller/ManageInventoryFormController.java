@@ -14,10 +14,15 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import net.sf.jasperreports.engine.*;
+import net.sf.jasperreports.engine.design.JasperDesign;
+import net.sf.jasperreports.engine.xml.JRXmlLoader;
+import net.sf.jasperreports.view.JasperViewer;
 import org.example.bo.BOFactory;
 import org.example.bo.custom.BookBO;
 import org.example.bo.custom.InventoryBO;
 import org.example.dao.custom.impl.BookDAOImpl;
+import org.example.db.DBConnection;
 import org.example.dto.BookDTO;
 import org.example.dto.InventoryDTO;
 import org.example.entity.Book;
@@ -30,7 +35,9 @@ import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ManageInventoryFormController {
 
@@ -77,14 +84,16 @@ public class ManageInventoryFormController {
     InventoryBO inventoryBO = (InventoryBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.INVENTORY);
     BookBO bookBO = (BookBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.BOOK);
     public void initialize() throws ClassNotFoundException {
+       setCellValueFactory();
+        loadAlLInventory();
+        LoadBookIds();
+    }
+
+    private void setCellValueFactory(){
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colQuantity.setCellValueFactory(new PropertyValueFactory<>("qty"));
         colLocation.setCellValueFactory(new PropertyValueFactory<>("location"));
         colBId.setCellValueFactory(new PropertyValueFactory<>("bId"));
-
-
-        loadAlLInventory();
-        LoadBookIds();
     }
 
     private void LoadBookIds(){
@@ -188,7 +197,7 @@ public class ManageInventoryFormController {
         txtLocation.clear();
         txtQuantity.clear();
 
-
+        LoadBookIds();
 
         getCurrentInventoryId();
     }
@@ -224,7 +233,16 @@ public class ManageInventoryFormController {
     }
 
     @FXML
-    void btnPrintOnAction(ActionEvent event) {
+    void btnPrintOnAction(ActionEvent event) throws JRException, SQLException, ClassNotFoundException {
+        JasperDesign jasperDesign = JRXmlLoader.load("src/main/resources/Report/Inventory_A4.jrxml");
+        JasperReport jasperReport = JasperCompileManager.compileReport(jasperDesign);
+
+        Map<String,Object> data = new HashMap<>();
+        data.put("i_id",txtId.getText());
+
+        JasperPrint jasperPrint =
+                JasperFillManager.fillReport(jasperReport, data , DBConnection.getDbConnection().getConnection());
+        JasperViewer.viewReport(jasperPrint,false);
 
     }
 

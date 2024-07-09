@@ -5,146 +5,268 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8012bb15-817a-49ba-8316-8f448ef2af1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/BOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/SuperBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/AuthorBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/BookBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/CustomerBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/InventoryBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/LogBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/PurchaseOrderBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/RegisterBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/ResetBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/AuthorBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/BookBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/CustomerBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/InventoryBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/LogBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/PurchaseOrderBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/RegisterBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/ResetBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/DashboardFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageAuthorFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageBookFormComtroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageCustomerFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageForgetPasswordFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageInventoryFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageLoginformController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageOrdersFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManagePlaceOrderFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageRegisterFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/CrudDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/SQLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/SuperDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/AuthorDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/InventoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/LogDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/OrderDetailsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Orders1DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/QueryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/RegisterDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ResetDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/AuthorDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/BookDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/CustomerDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/InventoryDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/LogDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/Order1DAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/OrderDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/OrderDetailsDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/QueryDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/RegisterDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/ResetDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/db/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/AuthorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/InventoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/Order2DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/OrderDetailDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/CustomEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Order2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/OrderDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mineApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/AuthorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/InventoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Order1DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Order2DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/OrderDetailDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/TextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/AuthorTM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/BookTM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/CustomerTM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/InventoryTM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/Order1TM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/OrderDetailTM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/3607424.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/arrow-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/bin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/checkout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/customer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/dashboard_icon_182989.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/delivery-box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/diskette.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/editor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/enter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/graphic-2d-colorful-wallpaper-with-grainy-gradients.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/icons8-plus-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/left-arrow (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/left-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/place_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/root2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/rotated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/update.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/updated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/warehouse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Book_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/Orders_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/author_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/customer_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/forgetPassword_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/inventory_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/login_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/placeOrder_form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/register_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/PublishersBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/impl/PublishersBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManagePublishersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/PublishersDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/PublishersDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/PublishersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Publishers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/PublishersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/tdm/PublishersTM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Report/Billorder_A4.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Report/Inventory_A4.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/10146602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/10209740.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/10291998.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/10399755.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/10480775.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/10558728.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/11204994.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1132378.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/11743801.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/11831511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/12314321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/12916127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/13942043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/14173319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1421791.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1421842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/14229896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/14323218.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/14563086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/14581755.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/14993553.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/15162974.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/15334741.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/15552192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/15832997.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16136153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16137829.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16264177.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16292294.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1642036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16435270.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16491926.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16507023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16683377.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16783243.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/16987988.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/17002065.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1728855.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1948210.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995463.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995562.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995571.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995572.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995627.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995629.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995652.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995673.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1995688.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/1px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/2178093.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_100518491_cauQEtuFAdA6avzFaLnp0MYRSl6ohby9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_130854348_gjo8DsA6WsIho4o4aRZ1hrfRx8OaIQRp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_131543383_RpSeZI2NUrxqguD3o887dgIhiqdOhQUy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_143605307_1FFOeE4vn3ZCFzvVQ1qrT5yESevI2Nxt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_222060625_rbDkpNcV3SGyBE8XFMardX8hE6J9dgsK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_227448236_dnkQXtvUkw73MvRCIcrQcjSc5zYBG39j.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_238459349_F447Om2zRv4pxZeQaHetLEzUYGl8Js4P.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_253774663_7A45rzXIOFp96HjQFeAqvi1oVWannDck.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_262474190_SGiqWCeBlA3FkhosZDAzVRUx5fp7gLEy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_265089196_IQswXEvrsZFFVBQEufQG4lGRJzbPHSZQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_274007804_c5sfG4QBkDEwF07Ensbc17vrOOWKXaY0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_278067989_thN68Sy0MZTWjpABD0pjMBGTfA6UNlx6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_280670564_eZi2VUrLswn2iYdVTJFuA8WKs8VFR5Gv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_300170007_EeUnk2vDMLQJDQh0sStL46tH0rTUy1j3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_300432825_xStRQGWsX2TafWGkmbOevB7v0r5p53ut.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_306007789_8KQzlLKPmFPtXt56rPGDPwDRQwViSmtR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_311052717_Tg9bZ72Qzf5RqEKcrCfoFhN9nsEozlaI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_311052888_AhKslmoMeMvVHlybGu0aRNqXXZHaDj6E.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_323448996_s6HSj5Oz9HtAtgD0a1fjsosch90hS0XB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_336945659_H0ymHXox8U7k0y2W1K6sZiK8TMREL1iT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_342619760_xPao2YJb0POWzDQUBtEWfwDwEP15OqWB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_344687623_0uTAX5maZWYFVNLbd7vJgnEO26n59oJz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_353444995_DPmf8XeA6lyMChbH0mBcj9RlepghjyGn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_359960263_f83vTeg7XXO1lReEn0AFDWDvVU2x670b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_364414587_i2thG49BfwS7KUJND4tJFbvZe2DOmpPK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_384037110_GvAu9wB5gAG43hromPqgS6C4ZsshrOAx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_396655521_wxMuPiQBAL7zBhlDXHH7f1MeduBgGge2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_409286504_4bzTsCgs8hnzXm8fyN0vVSTzESQHMOWH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_426023212_PMYz3F8TGns1gF93EabCeLeSBZ3OfYhu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_434608191_MMtLbp4koNVWQii5s3czfwdITXRECUvP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_435424810_mnB7pQS3907ziTK3luoR7RQtvmmCNyjz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_435495601_Tlqx59WPxP93t3DzPrN3lgZ4ooCT1ejL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_436919775_xavdUpJYRQMAMUvpkVgGVfVJUvMu6cqu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_458045328_2rbPNdvSSbCEuy6ZYFjnD0D271U4Cum8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_475105646_Aows3hzhl0CbhQttq75opMz7vocbTNZY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_480883980_yV5SwPB5RHatexGOziK1pSXmAi19y7o5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_480992510_EndFgPFn7z5HI1wyvot5YEBRpTTgGR9f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_499145110_RmRKNMazaOrFwt7RuUfzafbDQNmku80e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_520469113_cndYYPGQQfUOblE7GTRkLB3IR3jSyDWg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_545444173_MlNgvIbJRHTEJQyXkvw1KkNYaPyHRyty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_562348041_HcOxME3GqENd8Nw3iqfm5cH251c4Wtal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_575282418_6XvIBVsKqrXd3Yh52Y07o6Y1FK6hZpEi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_575286132_VFJILsfaIfkPzThkuC0fn339oNLFBOqg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_578132704_p1nyTkwpR36vbIkBZnzxqrpb406UQKzv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_583580050_LySHbFcTNYuq7oio0osZw47NDhhFJhoX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_597782970_xO9dUKVj7c5Jbk6Dol9JG4lKIr6HIxFj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_600162515_1npDKMwm144AtyIIFixZT7ss0TSHmgNS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_600787157_fsb4XRisp9mcgKRpkMe2R5WN8a369cGa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_613053821_9TZD2KWuwhStLL1UHFnVP5UihS44Pjbp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_616625749_BC1KhPBLHJo8d5YgCyoRqdvAB9JjxI0q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_657819359_nVgL3GMByIjmC6MURH5HMPX6SO9LAMer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_66576004_6wp9roQuuLt8RNEmdFcPapG0M4D4KZ6H.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_690677349_TTmj1sYfP2hIKozsKw78jcDcvqm1gynS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_701677849_tuAelh6RMgRPcFG61FIAEKRoAkbd9sLS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_702051861_XRKpqaB1tqAxnwJxG2ohZY13XiCKg045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_709653546_ufdUMwPeygH0flq1oKuaF6OrDKIjvQ8T.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_711525258_G7IlzOoAPLQ1FsJq1QdPoWRb6kBdPXwe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_744748858_YZk94cpeuXJ8zYATBaPaCO3oVOqoz6cA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_783465343_o4HWG4egyIKFR2Rj613Q5eVpHg2Gl0ma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_789758874_3KbWCbfwPx5NvngTjDuMNGAAuVTDhqoT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_822238004_6v9zeWHEGLpXwuwsMJiIK2yYLNQyzC8T.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_857734959_zjkVrH46Oa0vv1C9i7Aa12a2B7EhrW1S.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_98261193_RS6YqX8uoDbPys26izxORskT8DzJRebi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/240_F_99095361_LLfauqzoTTB8Ep5i2H29XtXJCgI7N2HY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/2422012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/2438078.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/2518107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/2570287.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/2633072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/2633078.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/27.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/29.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/30.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/32.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/33.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/3320611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/3375293.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/3678189.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/3680450.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/3882889.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/3883016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/4133336.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/4221997(1).js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/4221997.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/4229753.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/4326339.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/4859802.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/4924714.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/5768762.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6088826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6089035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6106966.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6214954.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6214966.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6477469.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6624028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6938538.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/6939182.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7069148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7069162.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7069181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7465551.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7465654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7542114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7542181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7589c1945ce38ce68d47d42a1cf45c3b.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7910440.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7928623.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7928631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/7928632.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/8237615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/845664086.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/8540900.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/8540904(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/8540904.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/8540928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/8896566.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/8911773.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/9305517.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/9727315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/9824384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/9824389.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/9824531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/R5JS7-M8GWC-DW7YC-BENQZ-YEA7H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/ads.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/analytics.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/banner.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/bee-behavior-thesis-defense1720514937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/browser-perf.8417c6bba72228fa2e29.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/collection-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/collection-limit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/collection-max-custom-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/collection-tour.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/collections-example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/common.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/core.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/corporate-vision-board-for-business1720514964.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/destination" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/en.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/end-of-the-summer-pool-party1720013677.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/english-literature-class1720532285.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/fi-base.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/fi-style.aa67fd576f431d44a950.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/filled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/flaticon-color-negative.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/flaticoncomv2.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/freepik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/freepikcompany.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/global.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/gradient.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/gtm.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/handrawn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/happy-pastel-end-of-the-summer1720013297.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/hotjar-1274764.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/inheritance-wills-estate1720514313.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/jquery-3.5.1.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/js(1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/js(2)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/js(3)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/js(4)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/lineal-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/main.ea1c939c.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/market-size-presentation-template1720173388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/modules.e4b2dc39f985f11fb1e4.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/otBannerSdk.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/otSDKStub.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/polyfill.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/powered_by_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/project-evaluation-in-pre-k-and-elementary1720013313.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/r_0.13834117076229346" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/r_0.4580142538148275" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/rul(1).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/rul.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/saved_resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/saved_resource(1).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/saved_resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/script.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/silence-nonverbal-communication-infographics1720439685.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/slidesgo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/style" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/turkey-lovers-month-infographics1720516286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org.example/images/Author Icons &amp; Symbols_files/userSession-auth.aa67fd576f431d44a950.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/publishers_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/BOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/BOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/DashboardFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageInventoryFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManageInventoryFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/ManagePlaceOrderFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/ManagePlaceOrderFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/DAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/InventoryDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/impl/InventoryDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard_form.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/inventory_form.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/inventory_form.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,37 +296,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Wrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Application.mineApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
-    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kaifz/Desktop/projects/LayeredArchitecture_Bookshop/src/main/java/org/example/util&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kaifz/Desktop/projects/LayeredArchitecture_Bookshop/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4643678&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Wrapper.executor": "Run",
+    "Application.mineApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
+    "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kaifz/Desktop/projects/LayeredArchitecture_Bookshop/src/main/resources/Report",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/kaifz/Desktop/projects/LayeredArchitecture_Bookshop/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4643678",
+    "settings.editor.selected.configurable": "CodeWithMe",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\resources\Report" />
       <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\java\org\example\util" />
       <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\resources\org.example\images" />
       <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop" />
@@ -216,11 +340,11 @@
       <recent name="C:\Users\kaifz\Desktop\projects\LayeredArchitecture_Bookshop\src\main\resources\org.example\view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.dto" />
       <recent name="org.example.bo.custom.impl" />
       <recent name="org.example.bo.custom" />
       <recent name="org.example.dao.custom.impl" />
       <recent name="org.example.model" />
-      <recent name="org.example.dao.custom" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Wrapper">
@@ -294,10 +418,28 @@
       <workItem from="1720236462177" duration="1484000" />
       <workItem from="1720257625832" duration="709000" />
       <workItem from="1720371223506" duration="988000" />
+      <workItem from="1720444743727" duration="1987000" />
+      <workItem from="1720460911439" duration="97000" />
+      <workItem from="1720463061412" duration="3045000" />
+      <workItem from="1720543030711" duration="249000" />
+      <workItem from="1720544485842" duration="2302000" />
+      <workItem from="1720547246339" duration="10058000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LayeredArchitecture_Bookshop$Wrapper.ic" NAME="Wrapper Coverage Results" MODIFIED="1720465554995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -19,7 +19,6 @@ public class InventoryDAOImpl implements InventoryDAO {
         }
         return AllInventory;
     }
-
     @Override
     public boolean add(Inventory entity) throws SQLException, ClassNotFoundException {
         return SQLUtil.execute("INSERT INTO inventory (i_id,i_qty,i_location,b_id) VALUES (?,?,?,?)", entity.getId(), entity.getQty(), entity.getLocation(), entity.getbId());

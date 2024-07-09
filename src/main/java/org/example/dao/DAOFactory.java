@@ -14,7 +14,7 @@ public class DAOFactory {
 
 
     public enum DAOTypes {
-        CUSTOMER,BOOK,AUTHOR,LOG,REGISTER,RESET,INVENTORY,ORDER,ORDER_DETAIL,QUERY_DAO,ORDER1
+        CUSTOMER,BOOK,AUTHOR,LOG,REGISTER,RESET,INVENTORY,ORDER,ORDER_DETAIL,QUERY_DAO,ORDER1,PUBLISHERS
     }
 
     public SuperDAO getDAO(DAOTypes types) {
@@ -41,6 +41,8 @@ public class DAOFactory {
                 return new QueryDAOImpl();
             case ORDER1:
                 return new Order1DAOImpl();
+            case PUBLISHERS:
+                return new PublishersDAOImpl();
             default:
                 return null;
         }

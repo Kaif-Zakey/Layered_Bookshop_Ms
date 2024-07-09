@@ -19,7 +19,7 @@
             <Image url="@../org.example/images/graphic-2d-colorful-wallpaper-with-grainy-gradients.jpg" />
          </image>
       </ImageView>
-      <JFXButton layoutX="48.0" layoutY="533.0" onAction="#btnExitOnAction" prefHeight="50.0" prefWidth="98.0" style="-fx-background-color: #962D0C;" text="         LogOut" textFill="#f4e8e8">
+      <JFXButton layoutX="55.0" layoutY="553.0" onAction="#btnExitOnAction" prefHeight="50.0" prefWidth="98.0" style="-fx-background-color: #962D0C;" text="         LogOut" textFill="#f4e8e8">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -199,7 +199,7 @@
             <Image url="@../org.example/images/editor.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="52.0" layoutY="543.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="31.0" fitWidth="38.0" layoutX="63.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../org.example/images/logout.png" />
          </image>
@@ -209,7 +209,7 @@
             <Image url="@../org.example/images/people.png" />
          </image>
       </ImageView>
-      <JFXButton layoutX="-2.0" layoutY="408.0" onAction="#btnInventoryOnAction" prefHeight="58.0" prefWidth="214.0" style="-fx-border-color: #0DB0D4;" text="      Inventory">
+      <JFXButton layoutX="-2.0" layoutY="408.0" onAction="#btnInventoryOnAction" prefHeight="58.0" prefWidth="214.0" style="-fx-border-color: #0DB0D4;" text="     Inventory">
          <font>
             <Font name="System Bold Italic" size="19.0" />
          </font>
@@ -217,6 +217,16 @@
       <ImageView fitHeight="38.0" fitWidth="46.0" layoutX="15.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../org.example/images/warehouse.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="-1.0" layoutY="466.0" onAction="#btnPublishersOnAction" prefHeight="58.0" prefWidth="214.0" style="-fx-border-color: #0DB0D4;" text="     Publishers">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="14.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../org.example/images/Author%20Icons%20&amp;%20Symbols_files/6214966.png" />
          </image>
       </ImageView>
    </children>

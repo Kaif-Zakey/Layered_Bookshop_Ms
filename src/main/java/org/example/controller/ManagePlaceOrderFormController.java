@@ -13,8 +13,13 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import net.sf.jasperreports.engine.*;
+import net.sf.jasperreports.engine.design.JasperDesign;
+import net.sf.jasperreports.engine.xml.JRXmlLoader;
+import net.sf.jasperreports.view.JasperViewer;
 import org.example.bo.BOFactory;
 import org.example.bo.custom.PurchaseOrderBO;
+import org.example.db.DBConnection;
 import org.example.dto.BookDTO;
 import org.example.dto.CustomerDTO;
 import org.example.dto.OrderDTO;
@@ -26,9 +31,7 @@ import java.math.BigDecimal;
 import java.net.URL;
 import java.sql.SQLException;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ManagePlaceOrderFormController {
@@ -368,8 +371,19 @@ public class ManagePlaceOrderFormController {
         return purchaseOrderBO.purchaseOrder(orderDTO);
     }
     @FXML
-    void btnPrintBillOnAction(ActionEvent event) {
+    void btnPrintBillOnAction(ActionEvent event) throws JRException, SQLException, ClassNotFoundException {
+        JasperDesign jasperDesign = JRXmlLoader.load("src/main/resources/Report/Billorder_A4.jrxml");
+        JasperReport jasperReport = JasperCompileManager.compileReport(jasperDesign);
 
+        Map<String,Object> data = new HashMap<>();
+        data.put("o_id",lblOrderId.getText());
+        //  data.put("b_id",cmbBookId.getValue());
+        // data.put("qty",txtQty.getText());
+        //data.put("unit_price",lblUnitPrice);
+
+        JasperPrint jasperPrint =
+                JasperFillManager.fillReport(jasperReport, data , DBConnection.getDbConnection().getConnection());
+        JasperViewer.viewReport(jasperPrint,false);
     }
 
 }

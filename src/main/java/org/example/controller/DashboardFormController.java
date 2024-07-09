@@ -47,12 +47,21 @@ public class DashboardFormController extends ManageLoginformController{
         }
 
 
+
+
         @FXML
         void btnDashBoardOnAction(ActionEvent event) throws IOException {
             AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/dashboard_form.fxml"));
             rootNode.getChildren().clear();
             rootNode.getChildren().add(anchorPane);
 
+        }
+
+        @FXML
+        void btnPublishersOnAction(ActionEvent event) throws IOException {
+            AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/publishers_form.fxml"));
+            root2.getChildren().clear();
+            root2.getChildren().add(anchorPane);
         }
         @FXML
         void btnAuthorOnAction(ActionEvent event) throws IOException {
