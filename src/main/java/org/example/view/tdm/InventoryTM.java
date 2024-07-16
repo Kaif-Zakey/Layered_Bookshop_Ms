@@ -4,10 +4,7 @@ public class InventoryTM {
     private String id;
     private int qty;
     private String location;
-    private String bId;
-
-    public InventoryTM() {
-    }
+    private String BoId;
 
     @Override
     public String toString() {
@@ -15,7 +12,7 @@ public class InventoryTM {
                 "id='" + id + '\'' +
                 ", qty=" + qty +
                 ", location='" + location + '\'' +
-                ", bId='" + bId + '\'' +
+                ", BoId='" + BoId + '\'' +
                 '}';
     }
 
@@ -43,18 +40,21 @@ public class InventoryTM {
         this.location = location;
     }
 
-    public String getbId() {
-        return bId;
+    public String getBoId() {
+        return BoId;
     }
 
-    public void setbId(String bId) {
-        this.bId = bId;
+    public void setBoId(String boId) {
+        BoId = boId;
     }
 
-    public InventoryTM(String id, int qty, String location, String bId) {
+    public InventoryTM() {
+    }
+
+    public InventoryTM(String id, int qty, String location, String boId) {
         this.id = id;
         this.qty = qty;
         this.location = location;
-        this.bId = bId;
+        BoId = boId;
     }
 }

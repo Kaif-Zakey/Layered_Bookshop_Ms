@@ -46,7 +46,7 @@ public class ManageInventoryFormController {
     @FXML
     private TextField txtId1;
     @FXML
-    private TableColumn<?, ?> colBId;
+    private TableColumn<?, ?> colBookId;
 
 
     @FXML
@@ -93,7 +93,7 @@ public class ManageInventoryFormController {
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colQuantity.setCellValueFactory(new PropertyValueFactory<>("qty"));
         colLocation.setCellValueFactory(new PropertyValueFactory<>("location"));
-        colBId.setCellValueFactory(new PropertyValueFactory<>("bId"));
+        colBookId.setCellValueFactory(new PropertyValueFactory<>("BoId"));
     }
 
     private void LoadBookIds(){
@@ -119,7 +119,7 @@ public class ManageInventoryFormController {
             ArrayList<InventoryDTO> allInventory = inventoryBO.getAllInventory();
 
             for (InventoryDTO c : allInventory) {
-                tblInventory.getItems().add(new InventoryTM(c.getId(), c.getQty(), c.getLocation(),c.getbId()));
+                tblInventory.getItems().add(new InventoryTM(c.getId(), c.getQty(), c.getLocation(),c.getBoId()));
             }
             getCurrentInventoryId();
         } catch (SQLException e) {
@@ -169,14 +169,14 @@ public class ManageInventoryFormController {
         String id= txtId1.getText();
         try {
             Inventory inventory = inventoryBO.searchById(id);
-            String bId =inventory.getbId();
+            String bId =inventory.getBoId();
 
 
             if (inventory != null) {
                 txtId.setText(inventory.getId());
                 txtQuantity.setText(String.valueOf(inventory.getQty()));
                 txtLocation.setText(inventory.getLocation());
-                cmbBookCode.getSelectionModel().select(inventory.getbId());
+                cmbBookCode.getSelectionModel().select(inventory.getBoId());
                 lblDescription.setText(bookBO.searchById(bId).getDescription());
                 lblQtyOnHand.setText(String.valueOf(bookBO.searchById(bId).getQtyOnHand()));
             } else {
@@ -196,8 +196,6 @@ public class ManageInventoryFormController {
         txtId1.clear();
         txtLocation.clear();
         txtQuantity.clear();
-
-        LoadBookIds();
 
         getCurrentInventoryId();
     }

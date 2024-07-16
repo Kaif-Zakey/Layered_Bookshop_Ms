@@ -1,35 +1,35 @@
 package org.example.view.tdm;
 
 public class Order1TM {
-    private String oId;
-    private String bId;
+    private String orId;
+    private String boId;
     private  int qty;
     private  double unitPrice;
 
     @Override
     public String toString() {
         return "Order1TM{" +
-                "oId='" + oId + '\'' +
-                ", bId='" + bId + '\'' +
+                "orId='" + orId + '\'' +
+                ", boId='" + boId + '\'' +
                 ", qty=" + qty +
                 ", unitPrice=" + unitPrice +
                 '}';
     }
 
-    public String getoId() {
-        return oId;
+    public String getOrId() {
+        return orId;
     }
 
-    public void setoId(String oId) {
-        this.oId = oId;
+    public void setOrId(String orId) {
+        this.orId = orId;
     }
 
-    public String getbId() {
-        return bId;
+    public String getBoId() {
+        return boId;
     }
 
-    public void setbId(String bId) {
-        this.bId = bId;
+    public void setBoId(String boId) {
+        this.boId = boId;
     }
 
     public int getQty() {
@@ -48,9 +48,9 @@ public class Order1TM {
         this.unitPrice = unitPrice;
     }
 
-    public Order1TM(String oId, String bId, int qty, double unitPrice) {
-        this.oId = oId;
-        this.bId = bId;
+    public Order1TM(String orId, String boId, int qty, double unitPrice) {
+        this.orId = orId;
+        this.boId = boId;
         this.qty = qty;
         this.unitPrice = unitPrice;
     }

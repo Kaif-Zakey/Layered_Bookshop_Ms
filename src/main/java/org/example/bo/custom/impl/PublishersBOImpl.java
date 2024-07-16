@@ -36,20 +36,20 @@ public class PublishersBOImpl implements PublishersBO {
         ArrayList<PublishersDTO> allPublishers= new ArrayList<>();
         ArrayList<Publishers> allEntityData = publishersDAO.getAll();
         for (Publishers i : allEntityData) {
-            allPublishers.add(new PublishersDTO(i.getpId(),i.getName(),i.getAddress(),i.getPhoneNumber(),i.getbId()));
+            allPublishers.add(new PublishersDTO(i.getPuId(),i.getName(),i.getAddress(),i.getPhoneNumber(),i.getBookId()));
         }
         return allPublishers;
     }
 
     @Override
     public boolean add(PublishersDTO dto) throws SQLException, ClassNotFoundException {
-        return publishersDAO.add(new Publishers(dto.getpId(),dto.getName(),dto.getAddress(),dto.getPhoneNumber(),dto.getbId()));
+        return publishersDAO.add(new Publishers(dto.getPuId(),dto.getName(),dto.getAddress(),dto.getPhoneNumber(),dto.getBookId()));
 
     }
 
     @Override
     public boolean update(PublishersDTO dto) throws SQLException, ClassNotFoundException {
-        return publishersDAO.update(new Publishers(dto.getpId(),dto.getName(),dto.getAddress(),dto.getPhoneNumber(),dto.getbId()));
+        return publishersDAO.update(new Publishers(dto.getPuId(),dto.getName(),dto.getAddress(),dto.getPhoneNumber(),dto.getBookId()));
 
     }
 

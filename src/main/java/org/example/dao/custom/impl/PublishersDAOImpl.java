@@ -24,13 +24,13 @@ public class PublishersDAOImpl implements PublishersDAO {
 
     @Override
     public boolean add(Publishers entity) throws SQLException, ClassNotFoundException {
-        return SQLUtil.execute("INSERT INTO publishers (pu_id, pu_name, pu_address,pu_phone,b_id) VALUES (?,?,?,?,?)", entity.getpId(), entity.getName(), entity.getAddress(), entity.getPhoneNumber(),entity.getbId());
+        return SQLUtil.execute("INSERT INTO publishers (pu_id, pu_name, pu_address,pu_phone,b_id) VALUES (?,?,?,?,?)", entity.getPuId(), entity.getName(), entity.getAddress(), entity.getPhoneNumber(),entity.getBookId());
 
     }
 
     @Override
     public boolean update(Publishers entity) throws SQLException, ClassNotFoundException {
-        return SQLUtil.execute("UPDATE publishers SET   pu_name=?, pu_address=?,pu_phone=?,b_id=? WHERE pu_id=?",entity.getName(),entity.getAddress(),entity.getPhoneNumber(),entity.getbId(),entity.getpId());
+        return SQLUtil.execute("UPDATE publishers SET   pu_name=?, pu_address=?,pu_phone=?,b_id=? WHERE pu_id=?",entity.getName(),entity.getAddress(),entity.getPhoneNumber(),entity.getBookId(),entity.getPuId());
 
     }
 

@@ -1,29 +1,29 @@
 package org.example.view.tdm;
 
 public class PublishersTM {
-    private String pId;
+    private String puId;
     private String name;
     private String address;
     private String phoneNumber;
-    private String bId;
+    private String bookId;
 
     @Override
     public String toString() {
         return "PublishersTM{" +
-                "pId='" + pId + '\'' +
+                "puId='" + puId + '\'' +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
-                ", bId='" + bId + '\'' +
+                ", bookId='" + bookId + '\'' +
                 '}';
     }
 
-    public String getpId() {
-        return pId;
+    public String getPuId() {
+        return puId;
     }
 
-    public void setpId(String pId) {
-        this.pId = pId;
+    public void setPuId(String puId) {
+        this.puId = puId;
     }
 
     public String getName() {
@@ -50,20 +50,20 @@ public class PublishersTM {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getbId() {
-        return bId;
+    public String getBookId() {
+        return bookId;
     }
 
-    public void setbId(String bId) {
-        this.bId = bId;
+    public void setBookId(String bookId) {
+        this.bookId = bookId;
     }
 
-    public PublishersTM(String pId, String name, String address, String phoneNumber, String bId) {
-        this.pId = pId;
+    public PublishersTM(String puId, String name, String address, String phoneNumber, String bookId) {
+        this.puId = puId;
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
-        this.bId = bId;
+        this.bookId = bookId;
     }
 
     public PublishersTM() {

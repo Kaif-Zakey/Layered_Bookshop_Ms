@@ -21,13 +21,13 @@ public class InventoryDAOImpl implements InventoryDAO {
     }
     @Override
     public boolean add(Inventory entity) throws SQLException, ClassNotFoundException {
-        return SQLUtil.execute("INSERT INTO inventory (i_id,i_qty,i_location,b_id) VALUES (?,?,?,?)", entity.getId(), entity.getQty(), entity.getLocation(), entity.getbId());
+        return SQLUtil.execute("INSERT INTO inventory  VALUES (?,?,?,?)", entity.getId(), entity.getQty(), entity.getLocation(), entity.getBoId());
 
     }
 
     @Override
     public boolean update(Inventory entity) throws SQLException, ClassNotFoundException {
-        return SQLUtil.execute("UPDATE inventory SET  i_qty=?, i_location=?, b_id=? WHERE i_id=?",entity.getQty(),entity.getLocation(),entity.getbId(),entity.getId());
+        return SQLUtil.execute("UPDATE inventory SET  i_qty=?, i_location=?, b_id=? WHERE i_id=?",entity.getQty(),entity.getLocation(),entity.getBoId(),entity.getId());
     }
 
     @Override

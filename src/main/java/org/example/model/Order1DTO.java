@@ -1,42 +1,35 @@
 package org.example.model;
 
 public class Order1DTO {
-    private String oId;
-    private String bId;
+    private String orId;
+    private String boId;
     private  int qty;
     private  double unitPrice;
-
-    public Order1DTO(String oId, String bId, int qty, double unitPrice) {
-        this.oId = oId;
-        this.bId = bId;
-        this.qty = qty;
-        this.unitPrice = unitPrice;
-    }
 
     @Override
     public String toString() {
         return "Order1DTO{" +
-                "oId='" + oId + '\'' +
-                ", bId='" + bId + '\'' +
+                "orId='" + orId + '\'' +
+                ", boId='" + boId + '\'' +
                 ", qty=" + qty +
                 ", unitPrice=" + unitPrice +
                 '}';
     }
 
-    public String getoId() {
-        return oId;
+    public String getOrId() {
+        return orId;
     }
 
-    public void setoId(String oId) {
-        this.oId = oId;
+    public void setOrId(String orId) {
+        this.orId = orId;
     }
 
-    public String getbId() {
-        return bId;
+    public String getBoId() {
+        return boId;
     }
 
-    public void setbId(String bId) {
-        this.bId = bId;
+    public void setBoId(String boId) {
+        this.boId = boId;
     }
 
     public int getQty() {
@@ -56,5 +49,12 @@ public class Order1DTO {
     }
 
     public Order1DTO() {
+    }
+
+    public Order1DTO(String orId, String boId, int qty, double unitPrice) {
+        this.orId = orId;
+        this.boId = boId;
+        this.qty = qty;
+        this.unitPrice = unitPrice;
     }
 }

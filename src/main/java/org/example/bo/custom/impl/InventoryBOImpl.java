@@ -18,7 +18,7 @@ public class InventoryBOImpl implements InventoryBO {
         ArrayList<InventoryDTO> allInventory= new ArrayList<>();
         ArrayList<Inventory> allEntityData = inventoryDAO.getAll();
         for (Inventory i : allEntityData) {
-            allInventory.add(new InventoryDTO(i.getId(),i.getQty(),i.getLocation(),i.getbId()));
+            allInventory.add(new InventoryDTO(i.getId(),i.getQty(),i.getLocation(),i.getBoId()));
         }
         return allInventory;
     }
@@ -30,12 +30,12 @@ public class InventoryBOImpl implements InventoryBO {
 
     @Override
     public boolean add(InventoryDTO dto) throws SQLException, ClassNotFoundException {
-        return inventoryDAO.add(new Inventory(dto.getId(),dto.getQty(),dto.getLocation(),dto.getbId()));
+        return inventoryDAO.add(new Inventory(dto.getId(),dto.getQty(),dto.getLocation(),dto.getBoId()));
     }
 
     @Override
     public boolean update(InventoryDTO dto) throws SQLException, ClassNotFoundException {
-        return inventoryDAO.update(new Inventory(dto.getId(),dto.getQty(),dto.getLocation(),dto.getbId()));
+        return inventoryDAO.update(new Inventory(dto.getId(),dto.getQty(),dto.getLocation(),dto.getBoId()));
     }
 
     @Override

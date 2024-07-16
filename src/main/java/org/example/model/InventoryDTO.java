@@ -6,9 +6,10 @@ public class InventoryDTO implements Serializable {
     private String id;
     private int qty;
     private String location;
-    private String bId;
+    private String BoId;
 
-    public InventoryDTO() {
+    public String getId() {
+        return id;
     }
 
     @Override
@@ -17,12 +18,8 @@ public class InventoryDTO implements Serializable {
                 "id='" + id + '\'' +
                 ", qty=" + qty +
                 ", location='" + location + '\'' +
-                ", bId='" + bId + '\'' +
+                ", BoId='" + BoId + '\'' +
                 '}';
-    }
-
-    public String getId() {
-        return id;
     }
 
     public void setId(String id) {
@@ -45,18 +42,21 @@ public class InventoryDTO implements Serializable {
         this.location = location;
     }
 
-    public String getbId() {
-        return bId;
+    public String getBoId() {
+        return BoId;
     }
 
-    public void setbId(String bId) {
-        this.bId = bId;
+    public void setBoId(String boId) {
+        BoId = boId;
     }
 
-    public InventoryDTO(String id, int qty, String location, String bId) {
+    public InventoryDTO() {
+    }
+
+    public InventoryDTO(String id, int qty, String location, String boId) {
         this.id = id;
         this.qty = qty;
         this.location = location;
-        this.bId = bId;
+        BoId = boId;
     }
 }

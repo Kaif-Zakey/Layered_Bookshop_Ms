@@ -62,10 +62,10 @@ public class ManageOrdersFormController {
     OrderDetailsDAO orderDetailsDAO=(OrderDetailsDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.ORDER_DETAIL);
    Orders1DAO orders1DAO=(Orders1DAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.ORDER1);
     public void initialize() throws ClassNotFoundException {
-        tblBookorder.getColumns().get(0).setCellValueFactory(new PropertyValueFactory<>("bId"));
+        tblBookorder.getColumns().get(0).setCellValueFactory(new PropertyValueFactory<>("boId"));
         tblBookorder.getColumns().get(1).setCellValueFactory(new PropertyValueFactory<>("unitPrice"));
         tblBookorder.getColumns().get(2).setCellValueFactory(new PropertyValueFactory<>("qty"));
-        tblBookorder.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("oId"));
+        tblBookorder.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("orId"));
 
         loadAllOrders();
     }
@@ -103,7 +103,7 @@ public class ManageOrdersFormController {
         String ids = txtid.getText();
         try {
             if (!txtid.getText().matches("[A-Za-z0-9 ]+")) {
-                String code = tblBookorder.getSelectionModel().getSelectedItem().getoId();
+                String code = tblBookorder.getSelectionModel().getSelectedItem().getOrId();
 
                 // String code = tblItem.getSelectionModel().getSelectedItem().getId();
                 if (orders1DAO.delete(code)) {

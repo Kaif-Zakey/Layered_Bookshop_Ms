@@ -100,11 +100,11 @@ public class ManagePublishersController {
         }
     }
     private void setCellValueFactory(){
-        colId.setCellValueFactory(new PropertyValueFactory<>("Pid"));
+        colId.setCellValueFactory(new PropertyValueFactory<>("puId"));
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
         colPhoneNumber.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
-        colBookId.setCellValueFactory(new PropertyValueFactory<>("bId"));
+        colBookId.setCellValueFactory(new PropertyValueFactory<>("bookId"));
 
     }
 
@@ -115,7 +115,7 @@ public class ManagePublishersController {
             ArrayList<PublishersDTO> allPublishers = publishersBO.getAllPublishers();
 
             for (PublishersDTO c : allPublishers) {
-                tblItem.getItems().add(new PublishersTM(c.getpId(), c.getName(), c.getAddress(),c.getPhoneNumber(),c.getbId()));
+                tblItem.getItems().add(new PublishersTM(c.getPuId(), c.getName(), c.getAddress(),c.getPhoneNumber(),c.getBookId()));
             }
             getCurrentPublishersId();
         } catch (SQLException e) {
@@ -178,7 +178,7 @@ public class ManagePublishersController {
 
         try {
             if (!name.matches("[A-Za-z0-9 ]+")){
-                String code = tblItem.getSelectionModel().getSelectedItem().getpId();
+                String code = tblItem.getSelectionModel().getSelectedItem().getPuId();
                 //String bid = tblInventory.getSelectionModel().getSelectedItem().getbId();
                 if (publishersBO.delete(code)) {
 
@@ -242,15 +242,15 @@ public class ManagePublishersController {
         String id= txtCode1.getText();
         try {
             Publishers publishers = publishersBO.searchById(id);
-            String bId =publishers.getbId();
+            String bId =publishers.getBookId();
 
 
             if (publishers != null) {
-                txtCode.setText(publishers.getpId());
+                txtCode.setText(publishers.getPuId());
                 txtName.setText(String.valueOf(publishers.getName()));
                 txtAddress.setText(publishers.getAddress());
                 txtPhoneNumber.setText(publishers.getPhoneNumber());
-                cmbBookID.getSelectionModel().select(publishers.getbId());
+                cmbBookID.getSelectionModel().select(publishers.getBookId());
             } else {
                 new Alert(Alert.AlertType.INFORMATION, "not found!").show();
             }
